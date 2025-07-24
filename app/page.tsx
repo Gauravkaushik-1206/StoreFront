@@ -1,11 +1,13 @@
-import { Button } from '@/components/ui/button'
-import React from 'react'
+import FeaturedProducts from "@/components/Home/FeaturedProducts";
+import Hero from "@/components/Home/Hero";
+import { Button } from "@/components/ui/button";
+import React from "react";
 
 export default function HomePage() {
   return (
-    <div>
-    <div>HomePage</div>
-    <Button variant="outline" size='lg' className='m-8 '>Click Me</Button>
-    </div>
-  )
+    <>
+      <Hero></Hero>
+      <FeaturedProducts></FeaturedProducts>
+    </>
+  );
 }
